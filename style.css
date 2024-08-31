@@ -1,0 +1,183 @@
+*{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: hsl(148, 38%, 91%);
+    margin: 8px;
+}
+
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    margin:50px auto;
+}
+
+.content{
+    position: absolute;
+    padding-left: 30px;
+}
+
+#submit{
+    width:485px;
+    background-color: hsl(169, 82%, 27%);
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+}
+#submit:hover{
+    background-color: hsl(170, 95%, 14%);
+}
+
+.class1 input{
+    position: absolute;
+    top: 100px;
+    left:30px;
+    width: 220px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.class2 input{
+    position: absolute;
+    top: 100px;
+    left:280px;
+    width: 220px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.class2 label{
+    position: absolute;
+    top: 70px;
+    left:280px;
+    width: 220px;
+}
+
+.class3 label{
+    position: absolute;
+    top: 150px;
+    left:30px;
+    width: 220px;
+}
+
+.class3 input{
+    position: absolute;
+    position: absolute;
+    top: 180px;
+    left:30px;
+    width: 470px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.class4 label{
+    position: absolute;
+    top: 230px;
+    left:30px;
+    width: 220px;
+}
+
+.class5 {
+    position: absolute;
+    top: 270px;
+    left:30px;
+    width: 220px;
+    border: 2px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    accent-color: hsl(169, 82%, 27%);
+}
+
+.class6 {
+    position: absolute;
+    top: 270px;
+    left: 280px;
+    width: 220px;
+    border: 2px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    accent-color: hsl(169, 82%, 27%);
+}
+
+.class7{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    width: 220px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+textarea{
+    position: absolute;
+    top:360px;
+    width: 480px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.class9{
+    position: absolute;
+    top:450px;
+    width: 480px;
+    height: 60px;
+    border-radius: 5px;
+    accent-color: hsl(169, 82%, 27%);
+
+}
+
+.class10{
+    position: absolute;
+    top:490px;
+    width: 480px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.class5:hover{
+    background-color: hsl(148, 38%, 91%);
+    border: 2px solid hsl(169, 82%, 27%);
+}
+
+.class6:hover{
+    background-color: hsl(148, 38%, 91%);
+    border: 2px solid hsl(169, 82%, 27%);
+}
+
+input:hover{
+    border: 2px solid hsl(169, 82%, 27%);
+}
+
+textarea:hover{
+    border: 2px solid hsl(169, 82%, 27%);
+}
+
+
+label{
+    font-size: 16px;
+}
+
+input{
+    cursor: pointer;
+}
+
+sup{
+   color:  hsl(169, 82%, 27%);
+}
+
+input:focus{
+    outline-color:hsl(0, 66%, 54%);
+}
